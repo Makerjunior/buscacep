@@ -1,0 +1,18 @@
+      /* Estilo para o card com efeito de sombra */
+      .card {
+        border-radius: 15px; /* Bordas arredondadas */
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Efeito de sombra forte */
+        padding: 30px; /* Espaçamento interno */
+        background-color: #fff; /* Fundo branco para o card */
+        transition: all 0.3s ease; /* Transição suave ao passar o mouse */
+    }
+
+    /* Efeito de sombra mais forte quando o mouse passa sobre o card */
+    .card:hover {
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); /* Sombra mais intensa ao passar o mouse */
+    }
+
+    /* Centralizando a div do formulário */
+    .form-container {
+        margin-top: 50px;
+    }
